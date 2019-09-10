@@ -1393,6 +1393,11 @@ input[type="radio"] {
 .footer_bottom p span {
     color: #06b8e9
 }
+img:hover {
+    opacity: 0.5;
+    transition-delay: 0.3s;
+    transition-duration: 0.2s;
+}
 
 @media screen and (max-width: 1700px) {
     .contribution {
