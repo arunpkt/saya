@@ -2992,9 +2992,16 @@ ol.carousel-indicators {
 .popup-gallery i {
     color: #040404;
     opacity: 1;
-    font-size: 41px;
-    margin-right: 25px;
+    font-size: 25px;
+    margin-right: 5px;
     text-align: center;
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 42px;
+}
+.popup-gallery i:hover {
+  transition: ease-in o.5s;
 }
 .overlay {
     position: absolute; /* Sit on top of the page content */
